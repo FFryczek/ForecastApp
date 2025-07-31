@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meteo App </title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Meteo App </h1>
+    <p class="subtitle">Check current and daily forecast for Tatry peaks</p>
+    <div class="buttons">
+      <button onclick="fetchMeteo('Kozi Wierch')">Kozi Wierch</button>
+      <button onclick="fetchMeteo('Szpiglasowy Wierch')">Szpiglasowy Wierch</button>
+      <button onclick="fetchMeteo('Rysy')">Rysy</button>
+      <button onclick="fetchMeteo('Kościelec')">Kościelec</button>
+      <button onclick="fetchMeteo('Świnica')">Świnica</button>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
