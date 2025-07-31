@@ -13,4 +13,5 @@ public class DailyResponseDTO {
     private List<Double> temperature_2m_min;
     private List<Double> rain_sum;
     private List<Double> showers_sum;
+    private List<Double> snowfall_sum;
 }
