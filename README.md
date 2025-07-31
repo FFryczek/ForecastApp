@@ -45,7 +45,7 @@ Created by FFryczek
 Frontend UI generated with help of ChatGPT
 
 Demo video:
-https://youtu.be/LfGdm80r5Fc
+https://youtu.be/VzGl-L1Wtrs
 
 License:
 Free to use and improve!
